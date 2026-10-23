@@ -23,38 +23,17 @@
 
 ---
 
-```
-┌─[ GLOBAL SIGINT GRID ]────────────────────────────────────────────────[ LIVE ]─┐
-│             :#::::####  ::#########                : :  ::####:#:    #:        │
-│ :  :####::####### ###:##:  #######  .     :###::. ::#######################:#: │
-│ :: #################:::##: :##:   :#    :##################################### │
-│     :#: :##########:  ###:            : ###:##########################:::#:    │
-│ .     .    ################   .     .:#:#############################:  .:     │
-│             #############:::          :##############################:         │
-│             ############             ##: ::##:#:###################: :         │
-│ .     .     :#########: .     .     .####:.:::################### #:::  .      │
-│               #######:               ############################:             │
-│               ::##                 :##############:#:############              │
-│ .     .     .   ##:#  ::.     .    ############:###:  :##: ###:   .     .      │
-│                    ##              ##############:     #:   ###  #             │
-│                     : ####          ##############     ::   :                  │
-│ .     .     .     .   ######  .     .    ########     .    :#@ ##:.     .      │
-│                      #########:          #######             # #:: ::#:        │
-│                       #########:          ######              :  :   #:        │
-│ .     .     .     .   :########     .    :######.:    .     .     :#::  .      │
-│                        :######:          :##### :#              :######        │
-│                        :#####             ####: :              :########       │
-│ .     .     .     .    :####  .     .     .###  .     .     .   ########.      │
-│                        ####                                     :    ##:    :: │
-│                        ##:                                            :     :  │
-│ .     .     .     .   :#:     .     .     .     .     .     .     .     .  :   │
-│                        #:                                                      │
-└─[ @ = NODE KUL-01 ]───────────────────────────────────────────[ 03.0N 101.6E ]─┘
+<p align="center">
+  <a href="https://slimyzz.github.io/">
+    <img src="assets/globe.svg" width="100%" alt="Rotating 3D globe with node KUL-01 locked on Malaysia"/>
+  </a>
+</p>
 
+```
 [+] node KUL-01 ........ ONLINE   Subang Jaya, Malaysia
 [+] operator ........... Kamil Ayub Khan (Slimyzz)
-[?] visitor ............ UNRESOLVED
-[!] run the trace to see where YOU are on the grid  >>  slimyzz.github.io
+[?] visitor ............ UNRESOLVED   GitHub hides your IP from this page
+[!] want to see where YOU are on the globe? click the globe or the button below
 ```
 
 <p align="center">
@@ -215,10 +194,10 @@ operator:
 
 ---
 
-### `> ./telemetry`
+### `> ./telemetry --render 3d`
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Slimyzz&theme=dark&background=0d1117&border=00ff9c&ring=00ff9c&fire=ff3b5c&currStreakLabel=00ff9c&sideLabels=c9d1d9&dates=8b949e&hide_border=false" alt="streak" height="170"/>
+  <img src="profile-3d-contrib/profile-cyber.svg" width="100%" alt="3D contribution graph"/>
 </p>
 
 ---
