@@ -4,7 +4,7 @@
 <!-- ============================================================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,100:003d29&height=220&section=header&text=KAMIL%20AYUB%20KHAN&fontSize=56&fontColor=00ff9c&fontAlignY=40&desc=Cybersecurity%20%7C%20Blue%20Team%20%7C%20AppSec%20%7C%20Reverse%20Engineering&descSize=16&descAlignY=62&descColor=8b949e&animation=fadeIn" width="100%" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,100:003d29&height=220&section=header&text=KAMIL%20AYUB%20KHAN&fontSize=56&fontColor=00ff9c&fontAlignY=40&desc=Cybersecurity%20%7C%20Blue%20Team%20%7C%20AppSec%20%7C%20Reverse%20Engineering&descSize=16&descAlignY=62&descColor=8b949e&animation=fadeIn" width="100%" alt="Kamil Ayub Khan. Cybersecurity, Blue Team, AppSec, Reverse Engineering"/>
 </p>
 
 <p align="center">
@@ -21,193 +21,105 @@
   <img src="https://komarev.com/ghpvc/?username=Slimyzz&label=VISITORS%20TRACED&color=00ff9c&style=for-the-badge" alt="visitors"/>
 </p>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
+
+<!-- globe (links to the live tracer) and operator card sit side by side, both 48% so the frames line up -->
+<div align="right">
+<a href="https://slimyzz.github.io/"><img src="assets/globe.svg" width="48%" align="left" alt="Rotating 3D globe locked on Malaysia. Click to trace your own location."></a>
+<img src="assets/card.svg" width="48%" alt="Operator card: cybersecurity undergraduate, SOC, AppSec, reverse engineering. Open to internship April to August 2027.">
+</div>
+
+<br clear="left">
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Arsenal
+
+<div align="center">
+
+<table>
+<tr><th width="22%"><img src="assets/table/th-domain.svg" width="100%" height="32" alt="Domain"></th><th width="78%"><img src="assets/table/th-arsenal.svg" width="100%" height="32" alt="Arsenal"></th></tr>
+<tr><td><b>Offensive &amp; Web</b><br><sub>recon, web app testing</sub></td><td>
+<img src="assets/stack/burp.svg" width="64" height="64" alt="burp">
+<img src="assets/stack/nmap.svg" width="64" height="64" alt="nmap">
+<img src="assets/stack/owasp.svg" width="64" height="64" alt="owasp">
+<img src="assets/stack/kali.svg" width="64" height="64" alt="kali">
+<img src="assets/stack/dirsearch.svg" width="64" height="64" alt="dirsearch">
+<img src="assets/stack/curl.svg" width="64" height="64" alt="curl">
+<img src="assets/stack/netcat.svg" width="64" height="64" alt="netcat">
+</td></tr>
+<tr><td><b>Blue Team &amp; SOC</b><br><sub>detection, triage, IR</sub></td><td>
+<img src="assets/stack/splunk.svg" width="64" height="64" alt="splunk">
+<img src="assets/stack/secops.svg" width="64" height="64" alt="secops">
+<img src="assets/stack/wireshark.svg" width="64" height="64" alt="wireshark">
+<img src="assets/stack/suricata.svg" width="64" height="64" alt="suricata">
+<img src="assets/stack/snort.svg" width="64" height="64" alt="snort">
+<img src="assets/stack/tcpdump.svg" width="64" height="64" alt="tcpdump">
+<img src="assets/stack/virustotal.svg" width="64" height="64" alt="virustotal">
+</td></tr>
+<tr><td><b>Reversing &amp; Crypto</b><br><sub>binaries, ciphers, forensics</sub></td><td>
+<img src="assets/stack/gdb.svg" width="64" height="64" alt="gdb">
+<img src="assets/stack/asm.svg" width="64" height="64" alt="asm">
+<img src="assets/stack/openssl.svg" width="64" height="64" alt="openssl">
+<img src="assets/stack/cyberchef.svg" width="64" height="64" alt="cyberchef">
+<img src="assets/stack/binwalk.svg" width="64" height="64" alt="binwalk">
+<img src="assets/stack/exiftool.svg" width="64" height="64" alt="exiftool">
+</td></tr>
+<tr><td><b>Systems &amp; Networks</b><br><sub>Linux, Cisco, protocols</sub></td><td>
+<img src="assets/stack/linux.svg" width="64" height="64" alt="linux">
+<img src="assets/stack/ubuntu.svg" width="64" height="64" alt="ubuntu">
+<img src="assets/stack/bash.svg" width="64" height="64" alt="bash">
+<img src="assets/stack/cisco.svg" width="64" height="64" alt="cisco">
+<img src="assets/stack/ssh.svg" width="64" height="64" alt="ssh">
+<img src="assets/stack/tcpip.svg" width="64" height="64" alt="tcpip">
+</td></tr>
+<tr><td><b>Code</b><br><sub>scripting and building</sub></td><td>
+<img src="assets/stack/python.svg" width="64" height="64" alt="python">
+<img src="assets/stack/c.svg" width="64" height="64" alt="c">
+<img src="assets/stack/js.svg" width="64" height="64" alt="js">
+<img src="assets/stack/html.svg" width="64" height="64" alt="html">
+<img src="assets/stack/css.svg" width="64" height="64" alt="css">
+<img src="assets/stack/sql.svg" width="64" height="64" alt="sql">
+<img src="assets/stack/fastapi.svg" width="64" height="64" alt="fastapi">
+<img src="assets/stack/git.svg" width="64" height="64" alt="git">
+</td></tr>
+<tr><td><b>AI x Security</b><br><sub>agents and their attack surface</sub></td><td>
+<img src="assets/stack/claude.svg" width="64" height="64" alt="claude">
+<img src="assets/stack/mcp.svg" width="64" height="64" alt="mcp">
+<img src="assets/stack/adk.svg" width="64" height="64" alt="adk">
+<img src="assets/stack/promptinj.svg" width="64" height="64" alt="promptinj">
+</td></tr>
+</table>
+
+</div>
+
+## Featured Work
+
+<table>
+<tr><th width="20%"><img src="assets/table/th-project.svg" width="100%" height="32" alt="Project"></th><th width="58%"><img src="assets/table/th-what-it-is.svg" width="100%" height="32" alt="What it is"></th><th width="22%"><img src="assets/table/th-stack.svg" width="100%" height="32" alt="Stack"></th></tr>
+<tr><td><a href="https://github.com/Slimyzz/CTF-Writeups"><b>CTF Writeups</b></a></td><td>36 picoCTF and CyLab solves plus TryHackMe rooms, each written up step by step: cipher reversal, GDB stack inspection, AES decryption, web enumeration.</td><td>Python, GDB, OpenSSL, Nmap</td></tr>
+<tr><td><b>Nabily</b> <i>(co-founder)</i></td><td>Student deal discovery platform for Malaysia. I own the frontend and the application security side.</td><td>TypeScript, AppSec</td></tr>
+<tr><td><a href="https://github.com/Slimyzz/The-Council"><b>The Council</b></a> <i>(team of 4)</i></td><td>Google and Kaggle AI Agents capstone. Multi agent debate with MCP based fact checking.</td><td>Python, Google ADK, MCP, FastAPI</td></tr>
+<tr><td><a href="https://slimyzz.github.io/"><b>Trace Node</b></a></td><td>The globe above. Shows visitors how much their public IP gives away, entirely in their browser, with nothing logged.</td><td>JavaScript, Canvas, GeoIP</td></tr>
+</table>
+
+## CTF Operations
+
+<a href="https://github.com/Slimyzz/CTF-Writeups"><img src="assets/ctf.svg" width="100%" alt="CTF operations: 36 picoCTF solves, 3 TryHackMe rooms, LetsDefend in progress, Hack The Box next"></a>
+
+## Certifications
 
 <p align="center">
-  <a href="https://slimyzz.github.io/">
-    <img src="assets/globe.svg" width="100%" alt="Rotating 3D globe with node KUL-01 locked on Malaysia"/>
-  </a>
+  <img src="https://img.shields.io/badge/Google-Cybersecurity_Professional-0d1117?style=for-the-badge&logo=google&logoColor=00ff9c&labelColor=0d1117" alt="Google Cybersecurity Professional Certificate"/>
+  <img src="https://img.shields.io/badge/Cisco-Networking_Devices_%26_Config-0d1117?style=for-the-badge&logo=cisco&logoColor=1ba0d7&labelColor=0d1117" alt="Cisco Networking Devices and Initial Configuration"/>
+  <img src="https://img.shields.io/badge/Taylor's-Dean's_Award_2026-0d1117?style=for-the-badge&logo=bookstack&logoColor=ffd700&labelColor=0d1117" alt="Dean's Award 2026"/>
+  <img src="https://img.shields.io/badge/DEC-AI_Literacy_for_All-0d1117?style=for-the-badge&logo=academia&logoColor=00ff9c&labelColor=0d1117" alt="DEC AI Literacy for All"/>
 </p>
 
-```
-[+] node KUL-01 ........ ONLINE   Subang Jaya, Malaysia
-[+] operator ........... Kamil Ayub Khan (Slimyzz)
-[?] visitor ............ UNRESOLVED   GitHub hides your IP from this page
-[!] want to see where YOU are on the globe? click the globe or the button below
-```
+## Activity
 
-<p align="center">
-  <a href="https://slimyzz.github.io/">
-    <img src="https://img.shields.io/badge/%E2%96%B6%20RUN%20TRACE-YOU%20ARE%20HERE-ff3b5c?style=for-the-badge&labelColor=0d1117" alt="Run trace"/>
-  </a>
-</p>
+<img src="profile-3d-contrib/profile-cyber.svg" width="100%" alt="3D contribution graph">
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
-### `> cat /etc/operator.conf`
-
-```yaml
-operator:
-  handle:        Slimyzz
-  name:          Kamil Ayub Khan
-  base:          Subang Jaya, Malaysia  [UTC+8]
-  degree:        BSc Computer Science (Cybersecurity) @ Taylor's University
-  status:        Semester 5  |  Dean's Award (Feb 2026)
-  clearance:     Google Cybersecurity Professional Certificate
-  focus:
-    - SOC operations and alert triage
-    - Application and web security
-    - Reverse engineering and binary analysis
-    - Security for AI agents and multi agent systems
-  currently:     Grinding CTFs, LetsDefend SOC path, shipping Nabily
-  availability:  16 week internship  |  19 Apr 2027 to 6 Aug 2027
-  languages:     English (fluent), Punjabi + Hindi (conversational)
-```
-
----
-
-### `> ls -la ~/arsenal`
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kali,linux,ubuntu,bash,powershell,python,c,js,html,css,mysql,fastapi,git,github,vscode&perline=15&theme=dark" alt="stack"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Burp_Suite-0d1117?style=flat-square&logo=burpsuite&logoColor=ff6633"/>
-  <img src="https://img.shields.io/badge/Wireshark-0d1117?style=flat-square&logo=wireshark&logoColor=1679a7"/>
-  <img src="https://img.shields.io/badge/Nmap-0d1117?style=flat-square&logoColor=00ff9c"/>
-  <img src="https://img.shields.io/badge/Splunk-0d1117?style=flat-square&logo=splunk&logoColor=00ff9c"/>
-  <img src="https://img.shields.io/badge/Kali_Linux-0d1117?style=flat-square&logo=kalilinux&logoColor=557cf2"/>
-  <img src="https://img.shields.io/badge/Cisco-0d1117?style=flat-square&logo=cisco&logoColor=1ba0d7"/>
-  <img src="https://img.shields.io/badge/OWASP-0d1117?style=flat-square&logo=owasp&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/TryHackMe-0d1117?style=flat-square&logo=tryhackme&logoColor=ff2b2b"/>
-  <img src="https://img.shields.io/badge/picoCTF-0d1117?style=flat-square"/>
-  <img src="https://img.shields.io/badge/LetsDefend-0d1117?style=flat-square"/>
-  <img src="https://img.shields.io/badge/GDB-0d1117?style=flat-square&logo=gnu&logoColor=a42e2b"/>
-  <img src="https://img.shields.io/badge/OpenSSL-0d1117?style=flat-square&logo=openssl&logoColor=721412"/>
-</p>
-
-```
-~/arsenal
-├── recon/
-│   ├── nmap  dirsearch  dirb  curl  wget  netcat  whois  dig
-│   └── service + directory enumeration, banner grabbing, attack surface mapping
-├── web_appsec/
-│   ├── burp_suite  (proxy, repeater, intruder, decoder)
-│   ├── owasp_top_10  injection  xss  idor  broken_auth  misconfig
-│   └── request tampering, cookie + header analysis, source code review
-├── blue_team/
-│   ├── siem: splunk  google_secops (chronicle)
-│   ├── ids: suricata  snort   |   capture: wireshark  tcpdump
-│   ├── letsdefend alert triage, phishing + email header analysis
-│   └── incident response lifecycle, log analysis, playbooks
-├── reversing/
-│   ├── gdb  strings  x86_64_assembly  stack_memory_inspection
-│   └── custom cipher reversal, binary logic tracing
-├── crypto/
-│   ├── openssl  cyberchef  python
-│   └── aes decryption, xor, classical ciphers, encoding chains (b64 / hex / rot)
-├── forensics/
-│   ├── file  exiftool  binwalk  xxd  strings
-│   └── metadata extraction, file carving, hidden data hunting
-├── networking/
-│   ├── cisco_packet_tracer  tcp/ip  subnetting  routing + switching config
-│   └── network design, device hardening, iot fundamentals
-├── frameworks/
-│   └── mitre_att&ck  nist_csf  cyber_kill_chain  cia_triad  least_privilege
-├── scripting/
-│   ├── python  bash  sql  powershell  linux_cli (pipes, grep, perms, ssh)
-│   └── exploit helpers, decoders, automation scripts
-└── ai_x_security/
-    ├── google_adk  mcp  fastapi  multi_agent_systems
-    └── llm agent security, prompt injection, agent behaviour verification
-```
-
----
-
-### `> ./ctf_ops --stats`
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│  CTF OPERATIONS LOG                                              │
-├──────────────────────────────────────────────────────────────────┤
-│  picoCTF / CyLab   [████████████████████████████░░░░]  36 solved │
-│  TryHackMe         [████░░░░░░░░░░░░░░░░░░░░░░░░░░░░]   3 rooms  │
-│  LetsDefend SOC    [██████░░░░░░░░░░░░░░░░░░░░░░░░░░]  in prog   │
-│  Hack The Box      [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]  queued    │
-├──────────────────────────────────────────────────────────────────┤
-│  categories: web | crypto | reversing | forensics | linux | pwn  │
-│  every solve documented  >>  github.com/Slimyzz/CTF-Writeups     │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-<details>
-<summary><b>🗂️ notable ops (click to expand)</b></summary>
-<br>
-
-| op | what went down |
-|:--|:--|
-| `cipher_break` | Reverse engineered a custom cipher and wrote a Python decoder to recover the flag |
-| `stack_dive` | Stepped through a binary in GDB and read the flag straight out of stack memory |
-| `aes_unlock` | Recovered and decrypted an AES encrypted challenge file with OpenSSL |
-| `web_recon` | Mapped a lab web target with Nmap, dirsearch and curl to find hidden endpoints |
-| `linux_hunt` | Chained pipes, grep, strings and permissions abuse to dig flags out of a Linux box |
-
-</details>
-
----
-
-### `> ls ~/projects --sort=impact`
-
-| | project | what it is |
-|:--:|:--|:--|
-| 🛡️ | [**CTF-Writeups**](https://github.com/Slimyzz/CTF-Writeups) | 36 picoCTF / CyLab solutions and TryHackMe rooms across web, crypto, reversing, forensics and Linux, each one written up step by step |
-| 🏷️ | **Nabily** | Co founded student deal discovery platform for Malaysia. I own the frontend and the application security side |
-| 🧠 | [**The-Council**](https://github.com/Slimyzz/The-Council) | Google x Kaggle AI Agents Capstone. Multi agent app built on Google ADK, FastAPI and MCP based fact checking |
-
----
-
-### `> cat ~/certs.txt`
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Google-Cybersecurity_Professional_Certificate-0d1117?style=for-the-badge&logo=google&logoColor=00ff9c&labelColor=0d1117"/>
-  <br>
-  <img src="https://img.shields.io/badge/Cisco-Networking_Devices_%26_Initial_Configuration-0d1117?style=for-the-badge&logo=cisco&logoColor=1ba0d7&labelColor=0d1117"/>
-  <br>
-  <img src="https://img.shields.io/badge/DEC_x_Taylor's-AI_Literacy_for_All-0d1117?style=for-the-badge&logo=academia&logoColor=00ff9c&labelColor=0d1117"/>
-  <br>
-  <img src="https://img.shields.io/badge/Taylor's_University-Dean's_Award_2026-0d1117?style=for-the-badge&logo=bookstack&logoColor=ffd700&labelColor=0d1117"/>
-</p>
-
----
-
-### `> cat ~/todo.md`
-
-- [x] Google Cybersecurity Professional Certificate
-- [x] 36 picoCTF / CyLab challenges solved and documented
-- [ ] Finish the LetsDefend SOC Analyst path
-- [ ] Start Hack The Box (Starting Point, then Easy machines)
-- [ ] Get deeper into Ghidra, Volatility and memory forensics
-- [ ] Active Directory attacks and defence labs
-- [ ] CompTIA Security+
-- [ ] Land a security internship (Apr to Aug 2027)
-
----
-
-### `> ./telemetry --render 3d`
-
-<p align="center">
-  <img src="profile-3d-contrib/profile-cyber.svg" width="100%" alt="3D contribution graph"/>
-</p>
-
----
-
-```
-[*] session closing...
-[*] a flag is hidden on this page. raw source is your friend.
-[+] connection terminated. stay curious.  // Slimyzz
-```
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003d29,100:0d1117&height=110&section=footer" width="100%" alt="footer"/>
-</p>
+<img src="assets/footer.svg" width="100%" alt="Session closing. Stay curious.">

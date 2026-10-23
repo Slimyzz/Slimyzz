@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="14" viewBox="0 0 1000 14" role="img" aria-label="">
+<defs><linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#29D3FF" stop-opacity="0"/><stop offset=".25" stop-color="#29D3FF"/><stop offset=".5" stop-color="#00FF9C"/><stop offset=".75" stop-color="#29D3FF"/><stop offset="1" stop-color="#29D3FF" stop-opacity="0"/></linearGradient>
+<linearGradient id="p" x1="0" x2="1"><stop offset="0" stop-color="#FF3B5C" stop-opacity="0"/><stop offset=".5" stop-color="#FF3B5C"/><stop offset="1" stop-color="#FF3B5C" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect y="6" width="1000" height="2"/></clipPath></defs>
+<rect y="6" width="1000" height="2" fill="url(#d)"/>
+<g clip-path="url(#c)"><rect x="-140" y="6" width="140" height="2" fill="url(#p)"><animateTransform attributeName="transform" type="translate" from="0 0" to="1280 0" dur="3.2s" repeatCount="indefinite"/></rect></g>
+<g transform="translate(500 7)" fill="none" stroke="#FF3B5C" stroke-width="1.5"><circle r="5"/><path d="M-10 0H-6M6 0H10M0 -7V-6M0 6V7"/></g>
+</svg>
