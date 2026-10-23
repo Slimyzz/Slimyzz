@@ -33,67 +33,25 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## Arsenal
+## About
 
-<div align="center">
+I'm a third year cybersecurity student at Taylor's University who learns by doing: breaking challenges in CTF labs, writing up how I solved them, and applying that to the products I help build. My main interests are security operations, application security and reverse engineering, and lately the security of AI agents.
+
+I'm looking for a **16 week security internship from 19 April to 6 August 2027**, in SOC, security analysis or AppSec.
+
+## Skills and Tools
 
 <table>
-<tr><th width="22%"><img src="assets/table/th-domain.svg" width="100%" height="32" alt="Domain"></th><th width="78%"><img src="assets/table/th-arsenal.svg" width="100%" height="32" alt="Arsenal"></th></tr>
-<tr><td><b>Offensive &amp; Web</b><br><sub>recon, web app testing</sub></td><td>
-<img src="assets/stack/burp.svg" width="64" height="64" alt="burp">
-<img src="assets/stack/nmap.svg" width="64" height="64" alt="nmap">
-<img src="assets/stack/owasp.svg" width="64" height="64" alt="owasp">
-<img src="assets/stack/kali.svg" width="64" height="64" alt="kali">
-<img src="assets/stack/dirsearch.svg" width="64" height="64" alt="dirsearch">
-<img src="assets/stack/curl.svg" width="64" height="64" alt="curl">
-<img src="assets/stack/netcat.svg" width="64" height="64" alt="netcat">
-</td></tr>
-<tr><td><b>Blue Team &amp; SOC</b><br><sub>detection, triage, IR</sub></td><td>
-<img src="assets/stack/splunk.svg" width="64" height="64" alt="splunk">
-<img src="assets/stack/secops.svg" width="64" height="64" alt="secops">
-<img src="assets/stack/wireshark.svg" width="64" height="64" alt="wireshark">
-<img src="assets/stack/suricata.svg" width="64" height="64" alt="suricata">
-<img src="assets/stack/snort.svg" width="64" height="64" alt="snort">
-<img src="assets/stack/tcpdump.svg" width="64" height="64" alt="tcpdump">
-<img src="assets/stack/virustotal.svg" width="64" height="64" alt="virustotal">
-</td></tr>
-<tr><td><b>Reversing &amp; Crypto</b><br><sub>binaries, ciphers, forensics</sub></td><td>
-<img src="assets/stack/gdb.svg" width="64" height="64" alt="gdb">
-<img src="assets/stack/asm.svg" width="64" height="64" alt="asm">
-<img src="assets/stack/openssl.svg" width="64" height="64" alt="openssl">
-<img src="assets/stack/cyberchef.svg" width="64" height="64" alt="cyberchef">
-<img src="assets/stack/binwalk.svg" width="64" height="64" alt="binwalk">
-<img src="assets/stack/exiftool.svg" width="64" height="64" alt="exiftool">
-</td></tr>
-<tr><td><b>Systems &amp; Networks</b><br><sub>Linux, Cisco, protocols</sub></td><td>
-<img src="assets/stack/linux.svg" width="64" height="64" alt="linux">
-<img src="assets/stack/ubuntu.svg" width="64" height="64" alt="ubuntu">
-<img src="assets/stack/bash.svg" width="64" height="64" alt="bash">
-<img src="assets/stack/cisco.svg" width="64" height="64" alt="cisco">
-<img src="assets/stack/ssh.svg" width="64" height="64" alt="ssh">
-<img src="assets/stack/tcpip.svg" width="64" height="64" alt="tcpip">
-</td></tr>
-<tr><td><b>Code</b><br><sub>scripting and building</sub></td><td>
-<img src="assets/stack/python.svg" width="64" height="64" alt="python">
-<img src="assets/stack/c.svg" width="64" height="64" alt="c">
-<img src="assets/stack/js.svg" width="64" height="64" alt="js">
-<img src="assets/stack/html.svg" width="64" height="64" alt="html">
-<img src="assets/stack/css.svg" width="64" height="64" alt="css">
-<img src="assets/stack/sql.svg" width="64" height="64" alt="sql">
-<img src="assets/stack/fastapi.svg" width="64" height="64" alt="fastapi">
-<img src="assets/stack/git.svg" width="64" height="64" alt="git">
-</td></tr>
-<tr><td><b>AI x Security</b><br><sub>agents and their attack surface</sub></td><td>
-<img src="assets/stack/claude.svg" width="64" height="64" alt="claude">
-<img src="assets/stack/mcp.svg" width="64" height="64" alt="mcp">
-<img src="assets/stack/adk.svg" width="64" height="64" alt="adk">
-<img src="assets/stack/promptinj.svg" width="64" height="64" alt="promptinj">
-</td></tr>
+<tr><th width="20%"><img src="assets/table/th-domain.svg" width="100%" height="32" alt="Domain"></th><th width="30%"><img src="assets/table/th-tools.svg" width="100%" height="32" alt="Tools"></th><th width="50%"><img src="assets/table/th-experience.svg" width="100%" height="32" alt="What I do with them"></th></tr>
+<tr><td><b>Application Security</b><br><sub>Web testing</sub></td><td><img src="assets/stack/burp.svg" width="36" height="36" title="Burp Suite" alt="Burp Suite"> <img src="assets/stack/owasp.svg" width="36" height="36" title="OWASP" alt="OWASP"> <img src="assets/stack/kali.svg" width="36" height="36" title="Kali Linux" alt="Kali Linux"> <img src="assets/stack/curl.svg" width="36" height="36" title="curl" alt="curl"> </td><td>Intercepting and replaying requests in Burp (Proxy, Repeater, Intruder), OWASP Top 10, service and directory enumeration with Nmap, dirsearch and curl</td></tr>
+<tr><td><b>Security Operations</b><br><sub>Detection and response</sub></td><td><img src="assets/stack/wireshark.svg" width="36" height="36" title="Wireshark" alt="Wireshark"> <img src="assets/stack/secops.svg" width="36" height="36" title="Google SecOps" alt="Google SecOps"> <img src="assets/stack/snort.svg" width="36" height="36" title="Snort" alt="Snort"> <img src="assets/stack/virustotal.svg" width="36" height="36" title="VirusTotal" alt="VirusTotal"> </td><td>SIEM queries in Splunk and Google SecOps, packet analysis with Wireshark and tcpdump, IDS rules with Suricata and Snort, alert triage and phishing analysis on LetsDefend, incident response</td></tr>
+<tr><td><b>Reverse Engineering</b><br><sub>Binaries, crypto, forensics</sub></td><td><img src="assets/stack/gdb.svg" width="36" height="36" title="GDB" alt="GDB"> <img src="assets/stack/python-re.svg" width="36" height="36" title="Python" alt="Python"> </td><td>Stepping through binaries in GDB, reading x86-64 assembly, reversing custom ciphers in Python, AES with OpenSSL, CyberChef, file forensics with binwalk, exiftool and strings</td></tr>
+<tr><td><b>Systems and Networking</b><br><sub>Infrastructure</sub></td><td><img src="assets/stack/linux.svg" width="36" height="36" title="Linux" alt="Linux"> <img src="assets/stack/ubuntu.svg" width="36" height="36" title="Ubuntu" alt="Ubuntu"> <img src="assets/stack/bash.svg" width="36" height="36" title="Bash" alt="Bash"> <img src="assets/stack/cisco.svg" width="36" height="36" title="Cisco" alt="Cisco"> </td><td>Linux command line and permissions, SSH, netcat, TCP/IP and subnetting, Cisco device configuration and network design in Packet Tracer</td></tr>
+<tr><td><b>Programming</b><br><sub>Scripting and web</sub></td><td><img src="assets/stack/python.svg" width="36" height="36" title="Python" alt="Python"> <img src="assets/stack/c.svg" width="36" height="36" title="C" alt="C"> <img src="assets/stack/js.svg" width="36" height="36" title="JavaScript" alt="JavaScript"> <img src="assets/stack/sql.svg" width="36" height="36" title="SQL" alt="SQL"> <img src="assets/stack/fastapi.svg" width="36" height="36" title="FastAPI" alt="FastAPI"> </td><td>Python for tooling, CTF solvers and automation, SQL, HTML, CSS and frontend work, Git and GitHub</td></tr>
+<tr><td><b>AI Security</b><br><sub>Agents and LLMs</sub></td><td><img src="assets/stack/claude.svg" width="36" height="36" title="Claude" alt="Claude"> <img src="assets/stack/mcp.svg" width="36" height="36" title="Model Context Protocol" alt="Model Context Protocol"> <img src="assets/stack/adk.svg" width="36" height="36" title="Google ADK" alt="Google ADK"> </td><td>Building multi agent systems with Google ADK and MCP, and the risks that come with them: prompt injection and unsafe tool use</td></tr>
 </table>
 
-</div>
-
-## Featured Work
+## Featured Projects
 
 <table>
 <tr><th width="20%"><img src="assets/table/th-project.svg" width="100%" height="32" alt="Project"></th><th width="58%"><img src="assets/table/th-what-it-is.svg" width="100%" height="32" alt="What it is"></th><th width="22%"><img src="assets/table/th-stack.svg" width="100%" height="32" alt="Stack"></th></tr>
@@ -103,7 +61,7 @@
 <tr><td><a href="https://slimyzz.github.io/"><b>Trace Node</b></a></td><td>The globe above. Shows visitors how much their public IP gives away, entirely in their browser, with nothing logged.</td><td>JavaScript, Canvas, GeoIP</td></tr>
 </table>
 
-## CTF Operations
+## CTF Progress
 
 <a href="https://github.com/Slimyzz/CTF-Writeups"><img src="assets/ctf.svg" width="100%" alt="CTF operations: 36 picoCTF solves, 3 TryHackMe rooms, LetsDefend in progress, Hack The Box next"></a>
 
@@ -116,7 +74,7 @@
   <img src="https://img.shields.io/badge/DEC-AI_Literacy_for_All-0d1117?style=for-the-badge&logo=academia&logoColor=00ff9c&labelColor=0d1117" alt="DEC AI Literacy for All"/>
 </p>
 
-## Activity
+## GitHub Activity
 
 <img src="profile-3d-contrib/profile-cyber.svg" width="100%" alt="3D contribution graph">
 
