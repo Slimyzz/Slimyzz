@@ -21,13 +21,13 @@ jobs:
           {
             "type": "normal",
             "fileName": "profile-cyber.svg",
-            "backgroundColor": "#05080b",
+            "backgroundColor": "#0d1117",
             "foregroundColor": "#c9d1d9",
             "strongColor": "#00ff9c",
-            "weakColor": "#3b5a47",
+            "weakColor": "#7d8590",
             "radarColor": "#00ff9c",
             "growingAnimation": true,
-            "contribColors": ["#0f1f17", "#0b4d2f", "#0e8a50", "#00c878", "#00ff9c"]
+            "contribColors": ["#161b22", "#0b4d2f", "#0e8a50", "#00c878", "#00ff9c"]
           }
           JSON
 
@@ -37,18 +37,17 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ${{ runner.temp }}/profile-3d.json
 
-      - name: Frame the graph to match the README
+      - name: Put the graph in a panel that matches the README
         run: |
           python3 - <<'PY'
-          """Wrap the generated 3D contribution SVG in the same frame as the rest of the README."""
+          """Give the generated 3D contribution SVG the same plain panel as the rest of the README."""
           import re, sys
 
-          PAD = 26
+          PAD = 24
           path = "profile-3d-contrib/profile-cyber.svg"
           svg = open(path, encoding="utf-8").read()
-          if 'id="kfFrame"' in svg:
+          if 'data-framed="1"' in svg:
               sys.exit(0)
-
           tag = re.match(r"<svg[^>]*>", svg).group(0)
           m = re.search(r'viewBox="([^"]+)"', tag)
           if m:
@@ -58,23 +57,12 @@ jobs:
               w = float(re.search(r'width="([\d.]+)', tag).group(1))
               h = float(re.search(r'height="([\d.]+)', tag).group(1))
           x, y, w, h = x - PAD, y - PAD, w + 2 * PAD, h + 2 * PAD
-
           new = re.sub(r'\sviewBox="[^"]+"', "", tag)
           new = re.sub(r'\swidth="[^"]+"', "", new, count=1)
           new = re.sub(r'\sheight="[^"]+"', "", new, count=1)
-          new = new[:-1] + f' viewBox="{x:g} {y:g} {w:g} {h:g}" width="{w:g}" height="{h:g}">'
-
-          ox, oy, ow, oh = x + 2, y + 2, w - 4, h - 4
-          c = 20
-          corners = (f"M{ox+6:g} {oy+6+c:g}V{oy+6:g}H{ox+6+c:g}M{ox+ow-6-c:g} {oy+6:g}H{ox+ow-6:g}V{oy+6+c:g}"
-                     f"M{ox+6:g} {oy+oh-6-c:g}V{oy+oh-6:g}H{ox+6+c:g}M{ox+ow-6-c:g} {oy+oh-6:g}H{ox+ow-6:g}V{oy+oh-6-c:g}")
-          back = ('<defs><linearGradient id="kfFrame" x1="0" y1="0" x2="1" y2="0">'
-                  '<stop offset="0" stop-color="#0E7490"/><stop offset=".3" stop-color="#29D3FF"/><stop offset=".5" stop-color="#00FF9C"/>'
-                  '<stop offset=".7" stop-color="#29D3FF"/><stop offset="1" stop-color="#0E7490"/></linearGradient></defs>'
-                  f'<rect x="{ox:g}" y="{oy:g}" width="{ow:g}" height="{oh:g}" rx="14" fill="#05080B"/>')
-          front = (f'<rect x="{x+9:g}" y="{y+9:g}" width="{w-18:g}" height="{h-18:g}" rx="10" fill="none" stroke="#00FF9C" stroke-opacity=".13"/>'
-                   f'<rect x="{ox:g}" y="{oy:g}" width="{ow:g}" height="{oh:g}" rx="14" fill="none" stroke="url(#kfFrame)" stroke-width="1.6"/>'
-                   f'<path d="{corners}" fill="none" stroke="#FF3B5C" stroke-width="1.8" stroke-opacity=".9"/>')
+          new = new[:-1] + f' viewBox="{x:g} {y:g} {w:g} {h:g}" width="{w:g}" height="{h:g}" data-framed="1">'
+          back = f'<rect x="{x+1:g}" y="{y+1:g}" width="{w-2:g}" height="{h-2:g}" rx="12" fill="#0D1117"/>'
+          front = f'<rect x="{x+1:g}" y="{y+1:g}" width="{w-2:g}" height="{h-2:g}" rx="12" fill="none" stroke="#30363D" stroke-width="1.5"/>'
           inner = svg[len(tag):svg.rindex("</svg>")]
           open(path, "w", encoding="utf-8").write(new + back + inner + front + "</svg>")
           PY
